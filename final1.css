@@ -1,0 +1,144 @@
+html {
+    font-style: oblique;
+    text-decoration: gold;
+    font-weight: 900;
+    
+}
+
+header {
+    display: block;
+    background-color: rgb(17, 82, 82);
+    padding: 1rem 15rem;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+}
+
+.search {
+    padding: 2px 5px;
+    height: 2em;
+}
+
+input {
+    margin: auto;
+    height: 2.5em;
+    scroll-padding-right: 100%;
+    padding-right: 35rem;
+}
+
+.side-nav {
+    display: inline-block;
+    margin-left: 4rem;
+}
+
+.box {
+    box-sizing: border-box;
+    border: 2px solid rgb(216, 208, 208);
+    margin-top: 1rem;
+    box-shadow: rgb(10, 10, 10);
+}
+
+.content {
+    display: inline;
+}
+
+.one {
+    display: inline-block padding 1px 2px;
+}
+
+.gtg {
+    display: flex;
+}
+
+.ggg {
+    margin-bottom: 0.5rem;
+    padding-right: 10rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 40%;
+}
+
+.pic {
+    border-radius: 50%;
+}
+
+.picbig {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pazzo {
+    display: inline-flex;
+    margin: 32;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.bxng {
+    border: 1px solid darkolivegreen;
+    box-sizing: border-box;
+}
+
+.bo {
+    margin-top: 2rem;
+    width: 80%;
+    height: 30%;
+}
+
+.ho {
+    margin-top: 0cm;
+}
+
+.but {
+    border-radius: 100px;
+    height: 25px;
+    width: 85px;
+    font-weight: 500;
+    font-size: medium;
+    background-color: rgb(54, 145, 145);
+    margin-left: 70%;
+    color: snow;
+}
+
+#pazzo {
+    border-radius: 30%;
+    height: 45px;
+    width: 100px;
+    display: flex;
+    background-color: darkcyan;
+}
+
+.igh {
+    display: block;
+    margin-left: 1.5rem;
+    size: 0rem;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+
+.folder {
+    width: 30px;
+    height: 20px;
+    margin: auto;
+    color: black;
+}
+
+footer {
+    color: snow;
+    background-color: rgb(17, 83, 83);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    clear: both;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
